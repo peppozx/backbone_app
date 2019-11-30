@@ -1,0 +1,111 @@
+* {
+  font-family: Montserrat;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: snow;
+}
+
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.header p {
+  font-size: 40px;
+}
+
+#todos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.post-form {
+  flex: 0 0 60%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: red;
+  padding: 30px 30px;
+  border-radius: 27px;
+}
+.post-area {
+  flex: 0 0 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.wrapper {
+  flex: 0 0 60%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.input-container {
+  flex: 0 0 51%;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  padding: 10px 10px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-container label,
+.input-container input {
+  flex: 0 0 100%;
+}
+
+input {
+  border-style: none;
+  height: 40px;
+  padding: 10px 10px;
+}
+
+/* Input animation classes */
+.label-normal {
+  position: absolute;
+  left: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all 0.5s;
+  color: #000;
+}
+.label-focus {
+  position: absolute;
+  left: 10px;
+  font-size: 14px;
+  top: -12px;
+  transition: all 0.5s;
+  font-weight: 600;
+  color: #fff;
+}
+
+/*          ----           */
+
+.li-name,
+.li-post {
+  font-size: 20px;
+  flex: 0 0 100%;
+}
+.delete-post {
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
+.li-div {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+  background-color: green;
+  color: #fff;
+  font-weight: 500;
+  padding: 30px 30px;
+  width: 500px;
+}
